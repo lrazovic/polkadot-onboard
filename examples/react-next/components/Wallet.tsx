@@ -12,16 +12,32 @@ const Wallet = ({ wallet }: { wallet: BaseWallet }) => {
 
   useEffect(() => {
     const setupApi = async () => {
-      const provider = new WsProvider('ws://localhost:8000');
+      const provider = new WsProvider('wss://beta.rolimec.org');
       const api = await ApiPromise.create({
         provider,
         noInitWarn: true,
-        types: {
-          TAssetConversion: 'MultiLocation', // The Signed Extensions accept an Option<MultiLocation>
-        },
-      });
+        // NOTE: If you install the polkadot-js extensions from main, the `types` object is not needed.
+        // NOTE: In this case the error is:
+        //
+        // Error: Struct: failed on assetId: Option<MultiLocation>:: decodeU8aStruct: failed at 0x010300a10f043205e514… on interior (index 2/2):
+        //  {"_enum":{"Here":"Null","X1":"[JunctionV4;1]","X2":"[JunctionV4;2]","X3":"[JunctionV4;3]","X4":"[JunctionV4;4]","X5":"[JunctionV4;5]","X6":"[JunctionV4;6]","X7":"[JunctionV4;7]","X8":"[JunctionV4;8]"}}::
+        // decodeU8aVec: failed at 0x0300a10f043205e514… (index 1/1):
+        // {"_enum":{"Parachain":"Compact<u32>","AccountId32":"{\"network\":\"Option<NetworkIdV4>\",\"id\":\"[u8;32]\"}","AccountIndex64":"{\"network\":\"Option<NetworkIdV4>\",\"index\":\"Compact<u64>\"}","AccountKey20":"{\"network\":\"Option<NetworkIdV4>\",\"key\":\"[u8;20]\"}","PalletInstance":"u8","GeneralIndex":"Compact<u128>","GeneralKey":"{\"length\":\"u8\",\"data\":\"[u8;32]\"}","OnlyChild":"Null","Plurality":"{\"id\":\"BodyIdV3\",\"part\":\"BodyPartV3\"}","GlobalConsensus":"NetworkIdV4"}}::
+        // decodeU8aStruct: failed at 0xa10f043205e514… on key (index 2/2): [u8;20]:: Expected input with 20 bytes (160 bits), found 7 bytes
 
-      // Error: createType(ExtrinsicPayload):: createType(ExtrinsicPayloadV4):: Struct: failed on assetId: u32:: u32: Input too large. Found input with 73 bits, expected 32
+        // NOTE: On the latest "prod" version (0.52.2: https://chromewebstore.google.com/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) of the polkadot-js extensions, the `types` object is needed.
+        // NOTE: But we have to set the `TAssetConversion` to `MultiLocation`, if we set it to `Option<MultiLocation>` (as it should be) we get an error.
+        // types: {
+        //   TAssetConversion: 'MultiLocation', // The Signed Extensions in the runtime accept an `Option<MultiLocation>`.
+        // },
+        // NOTE: The error in this case could be:
+        // 1) If we DON'T update the Metadata in the polkadot-js extension.
+        // Error: createType(ExtrinsicPayload):: createType(ExtrinsicPayloadV4):: Struct: failed on assetId: u32:: u32: Input too large. Found input with 73 bits, expected 32
+        // 2) If we update to the latest metadata:
+        // RpcError: 1002: Verification Error: Runtime error: Execution failed: Execution aborted due to trap: wasm trap: wasm `unreachable` instruction executed
+        // ...
+        // ... polimec_runtime.wasm!TaggedTransactionQueue_validate_transaction: RuntimeApi, Execution failed: ...
+      });
 
       setApi(api);
     };

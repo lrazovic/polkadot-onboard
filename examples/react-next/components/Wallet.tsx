@@ -12,8 +12,16 @@ const Wallet = ({ wallet }: { wallet: BaseWallet }) => {
 
   useEffect(() => {
     const setupApi = async () => {
-      const provider = new WsProvider('wss://westend-rpc.polkadot.io');
-      const api = await ApiPromise.create({ provider });
+      const provider = new WsProvider('ws://localhost:8000');
+      const api = await ApiPromise.create({
+        provider,
+        noInitWarn: true,
+        types: {
+          TAssetConversion: 'MultiLocation', // The Signed Extensions accept an Option<MultiLocation>
+        },
+      });
+
+      // Error: createType(ExtrinsicPayload):: createType(ExtrinsicPayloadV4):: Struct: failed on assetId: u32:: u32: Input too large. Found input with 73 bits, expected 32
 
       setApi(api);
     };
@@ -23,7 +31,7 @@ const Wallet = ({ wallet }: { wallet: BaseWallet }) => {
 
   const walletClickHandler = async (event: React.MouseEvent) => {
     console.log(`wallet clicked!`);
-    if (!isBusy) {
+    if (!isBusy && api) {
       try {
         setIsBusy(true);
         await wallet.connect();

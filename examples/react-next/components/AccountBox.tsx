@@ -1,3 +1,5 @@
+import type { ApiPromise } from '@polkadot/api';
+import type { Signer } from '@polkadot/types/types';
 import styles from 'styles/Home.module.css';
 
 const shorten = (str: string) => {
@@ -13,8 +15,8 @@ const shorten = (str: string) => {
 
 interface AccountBoxParams {
   account: { address: string; name: string };
-  signer: any;
-  api: any;
+  signer?: Signer;
+  api: ApiPromise | null;
 }
 
 export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
@@ -22,11 +24,17 @@ export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
     event.preventDefault();
     event.stopPropagation();
     if (api && account?.address && signer) {
-      const decimals = api.registry.chainDecimals[0];
+      const inputAsset = (assetId: number) =>
+        api.createType('MultiLocation', {
+          parents: 1,
+          interior: {
+            X3: [{ parachain: 1000 }, { palletInstance: 50 }, { generalIndex: assetId }],
+          },
+        });
 
-      await api.tx.system.remark('I am signing this transaction!').signAndSend(account.address, { signer }, () => {
-        // do something with result
-      });
+      const tx = await api.tx.system.remark('I am signing this transaction!').signAsync(account.address, { signer, assetId: inputAsset(1337) });
+      console.log(tx.toHuman());
+      await tx.send();
     }
   };
   const signMessageHandler = async (event: any) => {
@@ -40,6 +48,7 @@ export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
         data: 'I am signing this message',
         type: 'bytes',
       });
+      console.log(`Signature: ${signature}`);
     }
   };
 

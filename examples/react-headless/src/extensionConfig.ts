@@ -1,4 +1,6 @@
-export const extensionConfig = {
+import type { ExtensionConfiguration } from "@polkadot-onboard/injected-wallets";
+
+export const extensionConfig: ExtensionConfiguration = {
   disallowed: [],
   supported: [
     {

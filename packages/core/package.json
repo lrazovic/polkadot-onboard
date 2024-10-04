@@ -1,6 +1,6 @@
 {
   "name": "@polkadot-onboard/core",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [
     "hamidra <hamid.alipour@gmail.com>",
@@ -25,7 +25,7 @@
     "format": "prettier --write \"./src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
-    "@polkadot/types": "10.9.1",
+    "@polkadot/types": "^13.2.1",
     "prettier": "3.1.0",
     "typescript": "5.2.2"
   }

@@ -12,12 +12,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@polkadot-onboard/core": "1.1.0",
-    "@polkadot-onboard/injected-wallets": "1.1.0",
-    "@polkadot-onboard/react": "1.1.0",
-    "@polkadot-onboard/wallet-connect": "1.1.0",
-    "@polkadot/api": "10.9.1",
-    "@polkadot/extension-inject": "0.46.5",
+    "@polkadot-onboard/core": "file:../../packages/core",
+    "@polkadot-onboard/injected-wallets": "file:../../packages/injected-wallets",
+    "@polkadot-onboard/react": "file:../../packages/react",
+    "@polkadot-onboard/wallet-connect": "file:../../packages/wallet-connect",
+    "@polkadot/api": "^13.2.1",
+    "@polkadot/extension-inject": "0.53.1",
     "next": "14.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"

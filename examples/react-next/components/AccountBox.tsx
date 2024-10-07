@@ -20,7 +20,6 @@ interface AccountBoxParams {
 }
 
 export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
-
   const signTransactionHandler = async (event: any) => {
     event.preventDefault();
     event.stopPropagation();
@@ -29,15 +28,38 @@ export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
         api.createType('MultiLocationV3', {
           parents: 1,
           interior: {
-            X3: [
-              { Parachain: 1000 },
-              { PalletInstance: 50 },
-              { GeneralIndex: assetId },
-            ],
+            X3: [{ Parachain: 1000 }, { PalletInstance: 50 }, { GeneralIndex: assetId }],
           },
         });
 
       const tx = await api.tx.system.remark('I am signing this transaction!').signAsync(account.address, { signer, assetId: inputAsset(1337) });
+      // NOTE: The extrinsic will be encoded as:
+      // {
+      //     ...
+      //     "assetId": "0x01010300a10f043205e514", <--- This should be the SCALE encoded MultiLocation
+      //     ...
+      //     "signedExtensions": [
+      //         "CheckNonZeroSender",
+      //         "CheckSpecVersion",
+      //         "CheckTxVersion",
+      //         "CheckGenesis",
+      //         "CheckMortality",
+      //         "CheckNonce",
+      //         "CheckWeight",
+      //         "ChargeAssetTxPayment", <--- This is the signed extension that charges the asset
+      //         "CheckMetadataHash"
+      //     ],
+      //     "tip": "0x00000000000000000000000000000000",
+      //     ...
+      // }
+
+      // NOTE: 0x01010300a10f043205e514 cannot be SCALE-decoded as a MultiLocation.
+      // Tested here: https://www.shawntabrizi.com/substrate-js-utilities/codec/ using as a type:
+      // [
+      //   {
+      //     "AssetIdLocation": "MultiLocationV3"
+      //   }
+      // ]
       console.log(tx.toHuman());
       await tx.send();
     }

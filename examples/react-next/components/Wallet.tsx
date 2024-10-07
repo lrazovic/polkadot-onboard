@@ -27,9 +27,9 @@ const Wallet = ({ wallet }: { wallet: BaseWallet }) => {
 
         // NOTE: On the latest "prod" version (0.52.2: https://chromewebstore.google.com/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) of the polkadot-js extensions, the `types` object is needed.
         // NOTE: But we have to set the `TAssetConversion` to `MultiLocation`, if we set it to `Option<MultiLocation>` (as it should be) we get an error.
-        // types: {
-        //   TAssetConversion: 'MultiLocation', // The Signed Extensions in the runtime accept an `Option<MultiLocation>`.
-        // },
+        types: {
+          TAssetConversion: 'Option<MultiLocationV3>', // The Signed Extensions in the runtime accept an `Option<MultiLocation>`.
+        },
         // NOTE: The error in this case could be:
         // 1) If we DON'T update the Metadata in the polkadot-js extension.
         // Error: createType(ExtrinsicPayload):: createType(ExtrinsicPayloadV4):: Struct: failed on assetId: u32:: u32: Input too large. Found input with 73 bits, expected 32

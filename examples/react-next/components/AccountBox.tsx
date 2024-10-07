@@ -20,15 +20,20 @@ interface AccountBoxParams {
 }
 
 export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
+
   const signTransactionHandler = async (event: any) => {
     event.preventDefault();
     event.stopPropagation();
     if (api && account?.address && signer) {
       const inputAsset = (assetId: number) =>
-        api.createType('MultiLocation', {
+        api.createType('MultiLocationV3', {
           parents: 1,
           interior: {
-            X3: [{ parachain: 1000 }, { palletInstance: 50 }, { generalIndex: assetId }],
+            X3: [
+              { Parachain: 1000 },
+              { PalletInstance: 50 },
+              { GeneralIndex: assetId },
+            ],
           },
         });
 

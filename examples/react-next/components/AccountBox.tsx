@@ -36,7 +36,7 @@ export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
       await api.tx.system.remarkWithEvent('I am signing this transaction!').signAndSend(account.address, { signer: signer, assetId: inputAsset(1337) }, (result) => {
         console.log(`Transaction status: ${result.status}`);
       });
-      // NOTE: The extrinsic will be encoded as:
+      // NOTE: On Polkadot.js >= v13.0.1 the extrinsic will be encoded as:
       // {
       //     ...
       //     "assetId": "0x01010300a10f043205e514", <--- This should be the SCALE encoded MultiLocation
@@ -56,7 +56,7 @@ export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
       //     ...
       // }
 
-      // NOTE: 0x01010300a10f043205e514 cannot be SCALE-decoded as a MultiLocation.
+      // NOTE: 0x01010300a10f043205e514 cannot be SCALE-decoded as a MultiLocation (or MultiLocationV3).
       // Tested here: https://www.shawntabrizi.com/substrate-js-utilities/codec/ using as a type:
       // [
       //   {

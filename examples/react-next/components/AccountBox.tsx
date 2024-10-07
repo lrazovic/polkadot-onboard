@@ -1,3 +1,5 @@
+import "@polkadot/api/augment";
+
 import type { ApiPromise } from '@polkadot/api';
 import type { Signer } from '@polkadot/types/types';
 import styles from 'styles/Home.module.css';
@@ -24,15 +26,16 @@ export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
     event.preventDefault();
     event.stopPropagation();
     if (api && account?.address && signer) {
-      const inputAsset = (assetId: number) =>
-        api.createType('MultiLocationV3', {
-          parents: 1,
-          interior: {
-            X3: [{ Parachain: 1000 }, { PalletInstance: 50 }, { GeneralIndex: assetId }],
-          },
-        });
+      const inputAsset = (assetId: number) => ({
+        parents: 1,
+        interior: {
+          X3: [{ Parachain: 1000 }, { PalletInstance: 50 }, { GeneralIndex: assetId }],
+        },
+      });
 
-      const tx = await api.tx.system.remark('I am signing this transaction!').signAsync(account.address, { signer, assetId: inputAsset(1337) });
+      await api.tx.system.remarkWithEvent('I am signing this transaction!').signAndSend(account.address, { signer: signer, assetId: inputAsset(1337) }, (result) => {
+        console.log(`Transaction status: ${result.status}`);
+      });
       // NOTE: The extrinsic will be encoded as:
       // {
       //     ...
@@ -60,8 +63,6 @@ export const AccountBox = ({ api, account, signer }: AccountBoxParams) => {
       //     "AssetIdLocation": "MultiLocationV3"
       //   }
       // ]
-      console.log(tx.toHuman());
-      await tx.send();
     }
   };
   const signMessageHandler = async (event: any) => {

@@ -2073,64 +2073,64 @@ __metadata:
 
 "@polkadot-onboard/core@file:../../packages/core::locator=react-headless%40workspace%3Aexamples%2Freact-headless":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../../packages/core#../../packages/core::hash=173d8a&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../../packages/core#../../packages/core::hash=698c7b&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
 "@polkadot-onboard/core@file:../../packages/core::locator=react-next%40workspace%3Aexamples%2Freact-next":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../../packages/core#../../packages/core::hash=173d8a&locator=react-next%40workspace%3Aexamples%2Freact-next"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../../packages/core#../../packages/core::hash=698c7b&locator=react-next%40workspace%3Aexamples%2Freact-next"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
-"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3D31b113%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless":
+"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3Df948c3%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../core#../core::hash=173d8a&locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3D31b113%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../core#../core::hash=698c7b&locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3Df948c3%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
-"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3D31b113%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next":
+"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3Df948c3%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../core#../core::hash=173d8a&locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3D31b113%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../core#../core::hash=698c7b&locator=%40polkadot-onboard%2Finjected-wallets%40file%3A..%2F..%2Fpackages%2Finjected-wallets%23..%2F..%2Fpackages%2Finjected-wallets%3A%3Ahash%3Df948c3%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
 "@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Finjected-wallets%40workspace%3Apackages%2Finjected-wallets":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../core#../core::hash=173d8a&locator=%40polkadot-onboard%2Finjected-wallets%40workspace%3Apackages%2Finjected-wallets"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../core#../core::hash=698c7b&locator=%40polkadot-onboard%2Finjected-wallets%40workspace%3Apackages%2Finjected-wallets"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
 "@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Freact%40workspace%3Apackages%2Freact":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../core#../core::hash=173d8a&locator=%40polkadot-onboard%2Freact%40workspace%3Apackages%2Freact"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../core#../core::hash=698c7b&locator=%40polkadot-onboard%2Freact%40workspace%3Apackages%2Freact"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
-"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3D8bc547%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless":
+"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3Db3fa73%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../core#../core::hash=173d8a&locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3D8bc547%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../core#../core::hash=698c7b&locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3Db3fa73%26locator%3Dreact-headless%2540workspace%253Aexamples%252Freact-headless"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
-"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3D8bc547%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next":
+"@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3Db3fa73%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../core#../core::hash=173d8a&locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3D8bc547%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../core#../core::hash=698c7b&locator=%40polkadot-onboard%2Fwallet-connect%40file%3A..%2F..%2Fpackages%2Fwallet-connect%23..%2F..%2Fpackages%2Fwallet-connect%3A%3Ahash%3Db3fa73%26locator%3Dreact-next%2540workspace%253Aexamples%252Freact-next"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
 "@polkadot-onboard/core@file:../core::locator=%40polkadot-onboard%2Fwallet-connect%40workspace%3Apackages%2Fwallet-connect":
   version: 1.2.0
-  resolution: "@polkadot-onboard/core@file:../core#../core::hash=173d8a&locator=%40polkadot-onboard%2Fwallet-connect%40workspace%3Apackages%2Fwallet-connect"
-  checksum: 10/637edde8c3d6a0b2538f4f609c57b9daa421d0007e6d1ed4773d0f855eb9e4231d38f3c68519fac885e955a99637fed4bdc7068ce1508b3002a9655769742de5
+  resolution: "@polkadot-onboard/core@file:../core#../core::hash=698c7b&locator=%40polkadot-onboard%2Fwallet-connect%40workspace%3Apackages%2Fwallet-connect"
+  checksum: 10/8ef093e1c23161eb819af6ab5b0f5e9030882fafd29e024799f2d143eb754af0316ab19147c3292c74833b1292f360d6a19f8dc6774e9a24e50c28e04e8c6f87
   languageName: node
   linkType: hard
 
@@ -2138,7 +2138,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot-onboard/core@workspace:packages/core"
   dependencies:
-    "@polkadot/types": "npm:^13.2.1"
+    "@polkadot/types": "npm:^12.4.1"
     prettier: "npm:3.1.0"
     typescript: "npm:5.2.2"
   languageName: unknown
@@ -2146,21 +2146,21 @@ __metadata:
 
 "@polkadot-onboard/injected-wallets@file:../../packages/injected-wallets::locator=react-headless%40workspace%3Aexamples%2Freact-headless":
   version: 1.2.0
-  resolution: "@polkadot-onboard/injected-wallets@file:../../packages/injected-wallets#../../packages/injected-wallets::hash=31b113&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
+  resolution: "@polkadot-onboard/injected-wallets@file:../../packages/injected-wallets#../../packages/injected-wallets::hash=f948c3&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
   dependencies:
     "@polkadot-onboard/core": "file:../core"
     "@polkadot/extension-inject": "npm:0.53.1"
-  checksum: 10/b28eb3ce2b56822743d0ef7dc0dcfa56340828421989d11f6e6d3eddb33e6e4070f83cec3d7d1abe502e224461249397b09362f40e4a5b0f338b87c798c4916d
+  checksum: 10/465ec7cf0febaf244ad70830140988cfce723d15baec531e59ec20d606c21b7bd82814e7bd873537a72635186668ebe701a012a8683b621aa2aca2de73ceefd4
   languageName: node
   linkType: hard
 
 "@polkadot-onboard/injected-wallets@file:../../packages/injected-wallets::locator=react-next%40workspace%3Aexamples%2Freact-next":
   version: 1.2.0
-  resolution: "@polkadot-onboard/injected-wallets@file:../../packages/injected-wallets#../../packages/injected-wallets::hash=31b113&locator=react-next%40workspace%3Aexamples%2Freact-next"
+  resolution: "@polkadot-onboard/injected-wallets@file:../../packages/injected-wallets#../../packages/injected-wallets::hash=f948c3&locator=react-next%40workspace%3Aexamples%2Freact-next"
   dependencies:
     "@polkadot-onboard/core": "file:../core"
     "@polkadot/extension-inject": "npm:0.53.1"
-  checksum: 10/b28eb3ce2b56822743d0ef7dc0dcfa56340828421989d11f6e6d3eddb33e6e4070f83cec3d7d1abe502e224461249397b09362f40e4a5b0f338b87c798c4916d
+  checksum: 10/465ec7cf0febaf244ad70830140988cfce723d15baec531e59ec20d606c21b7bd82814e7bd873537a72635186668ebe701a012a8683b621aa2aca2de73ceefd4
   languageName: node
   linkType: hard
 
@@ -2170,7 +2170,7 @@ __metadata:
   dependencies:
     "@polkadot-onboard/core": "file:../core"
     "@polkadot/extension-inject": "npm:0.53.1"
-    "@polkadot/types": "npm:^13.2.1"
+    "@polkadot/types": "npm:^12.4.1"
     prettier: "npm:3.1.0"
     typescript: "npm:5.2.2"
   languageName: unknown
@@ -2178,21 +2178,21 @@ __metadata:
 
 "@polkadot-onboard/react@file:../../packages/react::locator=react-headless%40workspace%3Aexamples%2Freact-headless":
   version: 1.2.0
-  resolution: "@polkadot-onboard/react@file:../../packages/react#../../packages/react::hash=d5792c&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
+  resolution: "@polkadot-onboard/react@file:../../packages/react#../../packages/react::hash=dc459b&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
   dependencies:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-  checksum: 10/934a04abbe9feb7745a0966c50718486bd3e84c2960eb6c33f5416325334157d2106ce0f01798d6fdc8b276706165ba041c32aaf982414bf0b79d813409966a2
+  checksum: 10/f9f25bb290f310a23abca59a8e74e1e7fe09652af10b2fbbf33e7ffa26efbfd820bd053fdf1abc4966e0e4b225c17dd79a15ca3681b38de150bb6b563e0346eb
   languageName: node
   linkType: hard
 
 "@polkadot-onboard/react@file:../../packages/react::locator=react-next%40workspace%3Aexamples%2Freact-next":
   version: 1.2.0
-  resolution: "@polkadot-onboard/react@file:../../packages/react#../../packages/react::hash=d5792c&locator=react-next%40workspace%3Aexamples%2Freact-next"
+  resolution: "@polkadot-onboard/react@file:../../packages/react#../../packages/react::hash=dc459b&locator=react-next%40workspace%3Aexamples%2Freact-next"
   dependencies:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-  checksum: 10/934a04abbe9feb7745a0966c50718486bd3e84c2960eb6c33f5416325334157d2106ce0f01798d6fdc8b276706165ba041c32aaf982414bf0b79d813409966a2
+  checksum: 10/f9f25bb290f310a23abca59a8e74e1e7fe09652af10b2fbbf33e7ffa26efbfd820bd053fdf1abc4966e0e4b225c17dd79a15ca3681b38de150bb6b563e0346eb
   languageName: node
   linkType: hard
 
@@ -2211,23 +2211,23 @@ __metadata:
 
 "@polkadot-onboard/wallet-connect@file:../../packages/wallet-connect::locator=react-headless%40workspace%3Aexamples%2Freact-headless":
   version: 1.2.0
-  resolution: "@polkadot-onboard/wallet-connect@file:../../packages/wallet-connect#../../packages/wallet-connect::hash=8bc547&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
+  resolution: "@polkadot-onboard/wallet-connect@file:../../packages/wallet-connect#../../packages/wallet-connect::hash=b3fa73&locator=react-headless%40workspace%3Aexamples%2Freact-headless"
   dependencies:
     "@polkadot-onboard/core": "file:../core"
     "@walletconnect/modal": "npm:2.6.2"
     "@walletconnect/sign-client": "npm:2.10.4"
-  checksum: 10/117454cd70ba153d881b8b43173b890d6fa587c397377848b264b17d1227d759fe66e084275ca30126a4dd720a3b82908f1bb4863a4b491d5913412b5d7e65cb
+  checksum: 10/7ab4a573a3acd497a2383456b7d5d86bbef41d4ac84d8dafb061d1353c6eaf5535efdc598b56c42ed9533feb794dc319677727a0c8ad880a679fd2047b1d97ca
   languageName: node
   linkType: hard
 
 "@polkadot-onboard/wallet-connect@file:../../packages/wallet-connect::locator=react-next%40workspace%3Aexamples%2Freact-next":
   version: 1.2.0
-  resolution: "@polkadot-onboard/wallet-connect@file:../../packages/wallet-connect#../../packages/wallet-connect::hash=8bc547&locator=react-next%40workspace%3Aexamples%2Freact-next"
+  resolution: "@polkadot-onboard/wallet-connect@file:../../packages/wallet-connect#../../packages/wallet-connect::hash=b3fa73&locator=react-next%40workspace%3Aexamples%2Freact-next"
   dependencies:
     "@polkadot-onboard/core": "file:../core"
     "@walletconnect/modal": "npm:2.6.2"
     "@walletconnect/sign-client": "npm:2.10.4"
-  checksum: 10/117454cd70ba153d881b8b43173b890d6fa587c397377848b264b17d1227d759fe66e084275ca30126a4dd720a3b82908f1bb4863a4b491d5913412b5d7e65cb
+  checksum: 10/7ab4a573a3acd497a2383456b7d5d86bbef41d4ac84d8dafb061d1353c6eaf5535efdc598b56c42ed9533feb794dc319677727a0c8ad880a679fd2047b1d97ca
   languageName: node
   linkType: hard
 
@@ -2236,7 +2236,7 @@ __metadata:
   resolution: "@polkadot-onboard/wallet-connect@workspace:packages/wallet-connect"
   dependencies:
     "@polkadot-onboard/core": "file:../core"
-    "@polkadot/types": "npm:^13.2.1"
+    "@polkadot/types": "npm:^12.4.1"
     "@walletconnect/modal": "npm:2.6.2"
     "@walletconnect/sign-client": "npm:2.10.4"
     "@walletconnect/types": "npm:2.10.4"
@@ -2244,6 +2244,21 @@ __metadata:
     typescript: "npm:5.2.2"
   languageName: unknown
   linkType: soft
+
+"@polkadot/api-augment@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/api-augment@npm:12.4.2"
+  dependencies:
+    "@polkadot/api-base": "npm:12.4.2"
+    "@polkadot/rpc-augment": "npm:12.4.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/types-augment": "npm:12.4.2"
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    tslib: "npm:^2.6.3"
+  checksum: 10/63b3ceba30228ca579d8292abc9691254b4aec6fed4ac123e7742670a666504e8bba504268f162781d405a1b345ec9670fb197472c04fc0c8410c38aee6af0f6
+  languageName: node
+  linkType: hard
 
 "@polkadot/api-augment@npm:13.2.1":
   version: 13.2.1
@@ -2260,6 +2275,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polkadot/api-base@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/api-base@npm:12.4.2"
+  dependencies:
+    "@polkadot/rpc-core": "npm:12.4.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    rxjs: "npm:^7.8.1"
+    tslib: "npm:^2.6.3"
+  checksum: 10/7c2d6611f53af0d57a5bfb80a513f39a8579a1d64abeac6b9ba1beaa013b1f9713f5bd3bf4f771fdfe2c5cb062ffbe7644459ada394486d21d24607cdbdce7db
+  languageName: node
+  linkType: hard
+
 "@polkadot/api-base@npm:13.2.1":
   version: 13.2.1
   resolution: "@polkadot/api-base@npm:13.2.1"
@@ -2270,6 +2298,24 @@ __metadata:
     rxjs: "npm:^7.8.1"
     tslib: "npm:^2.7.0"
   checksum: 10/051af75c9d0ed4c2c218ba3d06c3773e70b42f326ce7f7f0b51647ac95d0de77544cecc61a1d4068f4911fd20cb1356b8dcba60fc91f05e88ecca1c0e5d4b8ff
+  languageName: node
+  linkType: hard
+
+"@polkadot/api-derive@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/api-derive@npm:12.4.2"
+  dependencies:
+    "@polkadot/api": "npm:12.4.2"
+    "@polkadot/api-augment": "npm:12.4.2"
+    "@polkadot/api-base": "npm:12.4.2"
+    "@polkadot/rpc-core": "npm:12.4.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    "@polkadot/util-crypto": "npm:^13.0.2"
+    rxjs: "npm:^7.8.1"
+    tslib: "npm:^2.6.3"
+  checksum: 10/f182434026a0dfcfec1fab6fcdf7f6b2149ee91cc58226f5e4c66b9a347b44757fc0e7a7e62909164528b560355f073f8b313e61ec2e220f18f9d76d84bdc87c
   languageName: node
   linkType: hard
 
@@ -2288,6 +2334,31 @@ __metadata:
     rxjs: "npm:^7.8.1"
     tslib: "npm:^2.7.0"
   checksum: 10/ff65760e5a51c59928f396016ca5092469fe2fc3a7822424af6168db60931f40b1c41562714c00f3e633d220e256f3ec7fcbba730bd3c0b81397d70f98a6ae45
+  languageName: node
+  linkType: hard
+
+"@polkadot/api@npm:12.4.2, @polkadot/api@npm:^12.4.1":
+  version: 12.4.2
+  resolution: "@polkadot/api@npm:12.4.2"
+  dependencies:
+    "@polkadot/api-augment": "npm:12.4.2"
+    "@polkadot/api-base": "npm:12.4.2"
+    "@polkadot/api-derive": "npm:12.4.2"
+    "@polkadot/keyring": "npm:^13.0.2"
+    "@polkadot/rpc-augment": "npm:12.4.2"
+    "@polkadot/rpc-core": "npm:12.4.2"
+    "@polkadot/rpc-provider": "npm:12.4.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/types-augment": "npm:12.4.2"
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/types-create": "npm:12.4.2"
+    "@polkadot/types-known": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    "@polkadot/util-crypto": "npm:^13.0.2"
+    eventemitter3: "npm:^5.0.1"
+    rxjs: "npm:^7.8.1"
+    tslib: "npm:^2.6.3"
+  checksum: 10/6bec42ddb2de8d082dab7827617e10fa1e66b7132b7da2453fd4010f1e64bfaf8a85f09af863ce4b6e8ac258272c5f9ae51b33da3007a0dafa8fd88466d30a65
   languageName: node
   linkType: hard
 
@@ -2316,6 +2387,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polkadot/extension-inject@npm:0.52.3":
+  version: 0.52.3
+  resolution: "@polkadot/extension-inject@npm:0.52.3"
+  dependencies:
+    "@polkadot/api": "npm:^12.4.1"
+    "@polkadot/rpc-provider": "npm:^12.4.1"
+    "@polkadot/types": "npm:^12.4.1"
+    "@polkadot/util": "npm:^13.0.2"
+    "@polkadot/util-crypto": "npm:^13.0.2"
+    "@polkadot/x-global": "npm:^13.0.2"
+    tslib: "npm:^2.6.2"
+  peerDependencies:
+    "@polkadot/api": "*"
+    "@polkadot/util": "*"
+  checksum: 10/6639d24ec6d424afdf1002def7f7d65b8f6c18ee355f917ba983e50d6be32785607f11623fa6ab84e899fb8a5caa3e4b27191c25bd56ed13c7e4b5b9b36e6ec0
+  languageName: node
+  linkType: hard
+
 "@polkadot/extension-inject@npm:0.53.1":
   version: 0.53.1
   resolution: "@polkadot/extension-inject@npm:0.53.1"
@@ -2334,7 +2423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/keyring@npm:^13.1.1":
+"@polkadot/keyring@npm:^13.0.2, @polkadot/keyring@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/keyring@npm:13.1.1"
   dependencies:
@@ -2348,7 +2437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/networks@npm:13.1.1, @polkadot/networks@npm:^13.1.1":
+"@polkadot/networks@npm:13.1.1, @polkadot/networks@npm:^13.0.2, @polkadot/networks@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/networks@npm:13.1.1"
   dependencies:
@@ -2356,6 +2445,19 @@ __metadata:
     "@substrate/ss58-registry": "npm:^1.50.0"
     tslib: "npm:^2.7.0"
   checksum: 10/50df885cba557e703a52a419135b869fb2dcc0f772649761ac2f4c9ee2444aae80842c1a24383857527f293c765c867ae75891f199d3885e43fd6e3feb1f7d8b
+  languageName: node
+  linkType: hard
+
+"@polkadot/rpc-augment@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/rpc-augment@npm:12.4.2"
+  dependencies:
+    "@polkadot/rpc-core": "npm:12.4.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    tslib: "npm:^2.6.3"
+  checksum: 10/cc972c2c107e791f0e71b446b3d57d173c1a9bc9820facde2002066dc71855bded83bb5022c89e78664c52038a87240a3072b14a72df4d6c7423ffde55f92ebd
   languageName: node
   linkType: hard
 
@@ -2372,6 +2474,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polkadot/rpc-core@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/rpc-core@npm:12.4.2"
+  dependencies:
+    "@polkadot/rpc-augment": "npm:12.4.2"
+    "@polkadot/rpc-provider": "npm:12.4.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    rxjs: "npm:^7.8.1"
+    tslib: "npm:^2.6.3"
+  checksum: 10/1dfaec1b7fffc682e90164632671e0fa3332740865f35d43646a341e7ab9f0e77e38b4467604c91433d7aa6a52fff973ad11fa6500dbb183ae11fd7a3d38daf8
+  languageName: node
+  linkType: hard
+
 "@polkadot/rpc-core@npm:13.2.1":
   version: 13.2.1
   resolution: "@polkadot/rpc-core@npm:13.2.1"
@@ -2383,6 +2499,30 @@ __metadata:
     rxjs: "npm:^7.8.1"
     tslib: "npm:^2.7.0"
   checksum: 10/3b1edefc8ce20d0bdbe68680135bdf1959e0ab5d4302668346ee377fbfc723e3c5b0093455c9ab015f999c92755b3a481701f8e602e1e50a6798ba1e25a7d337
+  languageName: node
+  linkType: hard
+
+"@polkadot/rpc-provider@npm:12.4.2, @polkadot/rpc-provider@npm:^12.4.1":
+  version: 12.4.2
+  resolution: "@polkadot/rpc-provider@npm:12.4.2"
+  dependencies:
+    "@polkadot/keyring": "npm:^13.0.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/types-support": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    "@polkadot/util-crypto": "npm:^13.0.2"
+    "@polkadot/x-fetch": "npm:^13.0.2"
+    "@polkadot/x-global": "npm:^13.0.2"
+    "@polkadot/x-ws": "npm:^13.0.2"
+    "@substrate/connect": "npm:0.8.11"
+    eventemitter3: "npm:^5.0.1"
+    mock-socket: "npm:^9.3.1"
+    nock: "npm:^13.5.4"
+    tslib: "npm:^2.6.3"
+  dependenciesMeta:
+    "@substrate/connect":
+      optional: true
+  checksum: 10/766fe16d062d5719266101c198a7e8a9a3c7d10ac42a1bdfd17b29cdf2b7bae1031c12066db66564d9c0163eed41d7d6084bfda6f080317a6bc9f652746caee8
   languageName: node
   linkType: hard
 
@@ -2410,6 +2550,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polkadot/types-augment@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/types-augment@npm:12.4.2"
+  dependencies:
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    tslib: "npm:^2.6.3"
+  checksum: 10/f1c384a09c439b2f7b3095247a22bff2f05a64751d85d1e8e742f16983f59b3965b4ffab02476819d6933d48deadfa57b155d2ff9c06defa4071fe3d2ec60878
+  languageName: node
+  linkType: hard
+
 "@polkadot/types-augment@npm:13.2.1":
   version: 13.2.1
   resolution: "@polkadot/types-augment@npm:13.2.1"
@@ -2419,6 +2571,17 @@ __metadata:
     "@polkadot/util": "npm:^13.1.1"
     tslib: "npm:^2.7.0"
   checksum: 10/4c65896660347c17bd70128a3774838efcc80922f0307fc90ed2d9dc14f7f837d1e97d6954d5840e659084c73435fab81bd797918ffa4b804d9f60fffc6e6028
+  languageName: node
+  linkType: hard
+
+"@polkadot/types-codec@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/types-codec@npm:12.4.2"
+  dependencies:
+    "@polkadot/util": "npm:^13.0.2"
+    "@polkadot/x-bigint": "npm:^13.0.2"
+    tslib: "npm:^2.6.3"
+  checksum: 10/92257691156bf077a293060855bbaa47f5caf1c9a71d113f91295ce8b5439fe59ba9877cb3d7492b1d1d6a9b1ad775adc27cebc293ef94ce5155c1cf9e738efd
   languageName: node
   linkType: hard
 
@@ -2433,6 +2596,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polkadot/types-create@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/types-create@npm:12.4.2"
+  dependencies:
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    tslib: "npm:^2.6.3"
+  checksum: 10/64980183f05d95e4b0781221875330bd3759936f73adfe56d8072dbb8dbf3acb939e7da61e8b66917fc10fac028a05fbf8998a056642d720cfc6a8365683dcce
+  languageName: node
+  linkType: hard
+
 "@polkadot/types-create@npm:13.2.1":
   version: 13.2.1
   resolution: "@polkadot/types-create@npm:13.2.1"
@@ -2441,6 +2615,20 @@ __metadata:
     "@polkadot/util": "npm:^13.1.1"
     tslib: "npm:^2.7.0"
   checksum: 10/66dfbc05801783570bc9bb77de29a3baed2c5ba0aef8489f46503891693af4786dbb1b819924689da435527763131f0ad6699aaedbc1ebd224bb2f829d8b688a
+  languageName: node
+  linkType: hard
+
+"@polkadot/types-known@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/types-known@npm:12.4.2"
+  dependencies:
+    "@polkadot/networks": "npm:^13.0.2"
+    "@polkadot/types": "npm:12.4.2"
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/types-create": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    tslib: "npm:^2.6.3"
+  checksum: 10/752647696d9fce56d33b7edf8a0d3d9d13670b2ee9e04db65d33b22a6b4381b6c94e1962662a55b2ed5137c50208a20fc3ef7ad228952ef9c9e6262ef6ea566b
   languageName: node
   linkType: hard
 
@@ -2458,6 +2646,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polkadot/types-support@npm:12.4.2":
+  version: 12.4.2
+  resolution: "@polkadot/types-support@npm:12.4.2"
+  dependencies:
+    "@polkadot/util": "npm:^13.0.2"
+    tslib: "npm:^2.6.3"
+  checksum: 10/9ceb96f39b8eb1b29fc8cc69572f6d9f45406be99f6a8e4f2c0f3cea4f01d2e8af78184a226e21fa6ca6688a5b26b5b1b87f6a24f12fef7a981f31df1826f344
+  languageName: node
+  linkType: hard
+
 "@polkadot/types-support@npm:13.2.1":
   version: 13.2.1
   resolution: "@polkadot/types-support@npm:13.2.1"
@@ -2465,6 +2663,22 @@ __metadata:
     "@polkadot/util": "npm:^13.1.1"
     tslib: "npm:^2.7.0"
   checksum: 10/15b711c59f3dc859054207025345532f34ca90ae59049f75dd2f1a8c67017488c1e53d415a63adc3920a373fd63a7a409f8012c0e7afa27aea5c6e933bf3ddb7
+  languageName: node
+  linkType: hard
+
+"@polkadot/types@npm:12.4.2, @polkadot/types@npm:^12.4.1":
+  version: 12.4.2
+  resolution: "@polkadot/types@npm:12.4.2"
+  dependencies:
+    "@polkadot/keyring": "npm:^13.0.2"
+    "@polkadot/types-augment": "npm:12.4.2"
+    "@polkadot/types-codec": "npm:12.4.2"
+    "@polkadot/types-create": "npm:12.4.2"
+    "@polkadot/util": "npm:^13.0.2"
+    "@polkadot/util-crypto": "npm:^13.0.2"
+    rxjs: "npm:^7.8.1"
+    tslib: "npm:^2.6.3"
+  checksum: 10/281d6a9ada22f24aa832d17ffa00c175814ce0721182d6294029c5447f0147afd7c837bbc2b735707c737b1586f3b34d78c461395ddedbc8ae18e225c72a70cd
   languageName: node
   linkType: hard
 
@@ -2484,7 +2698,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/util-crypto@npm:13.1.1, @polkadot/util-crypto@npm:^13.1.1":
+"@polkadot/util-crypto@npm:13.1.1, @polkadot/util-crypto@npm:^13.0.2, @polkadot/util-crypto@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/util-crypto@npm:13.1.1"
   dependencies:
@@ -2504,7 +2718,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/util@npm:13.1.1, @polkadot/util@npm:^13.1.1":
+"@polkadot/util@npm:13.1.1, @polkadot/util@npm:^13.0.2, @polkadot/util@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/util@npm:13.1.1"
   dependencies:
@@ -2599,7 +2813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/x-bigint@npm:13.1.1, @polkadot/x-bigint@npm:^13.1.1":
+"@polkadot/x-bigint@npm:13.1.1, @polkadot/x-bigint@npm:^13.0.2, @polkadot/x-bigint@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/x-bigint@npm:13.1.1"
   dependencies:
@@ -2609,7 +2823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/x-fetch@npm:^13.1.1":
+"@polkadot/x-fetch@npm:^13.0.2, @polkadot/x-fetch@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/x-fetch@npm:13.1.1"
   dependencies:
@@ -2620,7 +2834,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/x-global@npm:13.1.1, @polkadot/x-global@npm:^13.1.1":
+"@polkadot/x-global@npm:13.1.1, @polkadot/x-global@npm:^13.0.2, @polkadot/x-global@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/x-global@npm:13.1.1"
   dependencies:
@@ -2662,7 +2876,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/x-ws@npm:^13.1.1":
+"@polkadot/x-ws@npm:^13.0.2, @polkadot/x-ws@npm:^13.1.1":
   version: 13.1.1
   resolution: "@polkadot/x-ws@npm:13.1.1"
   dependencies:
@@ -8883,8 +9097,8 @@ __metadata:
     "@polkadot-onboard/injected-wallets": "file:../../packages/injected-wallets"
     "@polkadot-onboard/react": "file:../../packages/react"
     "@polkadot-onboard/wallet-connect": "file:../../packages/wallet-connect"
-    "@polkadot/api": "npm:^13.2.1"
-    "@polkadot/extension-inject": "npm:0.53.1"
+    "@polkadot/api": "npm:^12.4.1"
+    "@polkadot/extension-inject": "npm:0.52.3"
     "@types/react": "npm:18.2.37"
     "@types/react-dom": "npm:18.2.15"
     babel-loader: "npm:9.1.3"
@@ -8914,8 +9128,7 @@ __metadata:
     "@polkadot-onboard/injected-wallets": "file:../../packages/injected-wallets"
     "@polkadot-onboard/react": "file:../../packages/react"
     "@polkadot-onboard/wallet-connect": "file:../../packages/wallet-connect"
-    "@polkadot/api": "npm:^13.2.1"
-    "@polkadot/extension-inject": "npm:0.53.1"
+    "@polkadot/api": "npm:^12.4.1"
     "@types/node": "npm:20.9.0"
     "@types/react": "npm:18.2.37"
     "@types/react-dom": "npm:18.2.15"
@@ -10109,7 +10322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.6.2, tslib@npm:^2.7.0":
+"tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.6.2, tslib@npm:^2.6.3, tslib@npm:^2.7.0":
   version: 2.7.0
   resolution: "tslib@npm:2.7.0"
   checksum: 10/9a5b47ddac65874fa011c20ff76db69f97cf90c78cff5934799ab8894a5342db2d17b4e7613a087046bc1d133d21547ddff87ac558abeec31ffa929c88b7fce6

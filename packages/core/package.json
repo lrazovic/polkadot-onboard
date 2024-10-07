@@ -25,7 +25,7 @@
     "format": "prettier --write \"./src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
-    "@polkadot/types": "^13.2.1",
+    "@polkadot/types": "^12.4.1",
     "prettier": "3.1.0",
     "typescript": "5.2.2"
   }

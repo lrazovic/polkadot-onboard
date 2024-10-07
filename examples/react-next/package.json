@@ -16,8 +16,7 @@
     "@polkadot-onboard/injected-wallets": "file:../../packages/injected-wallets",
     "@polkadot-onboard/react": "file:../../packages/react",
     "@polkadot-onboard/wallet-connect": "file:../../packages/wallet-connect",
-    "@polkadot/api": "^13.2.1",
-    "@polkadot/extension-inject": "0.53.1",
+    "@polkadot/api": "^12.4.1",
     "next": "14.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"

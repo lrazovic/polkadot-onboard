@@ -1,1 +1,0 @@
-{"version":3,"file":"walletAggregator.d.ts","sourceRoot":"","sources":["../../src/walletAggregator.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,UAAU,EAAE,kBAAkB,EAAE,MAAM,YAAY,CAAC;AAEjE,qBAAa,gBAAgB;IAC3B,eAAe,EAAE,kBAAkB,EAAE,CAAC;gBAE1B,SAAS,EAAE,kBAAkB,EAAE;IAIrC,UAAU,IAAI,OAAO,CAAC,UAAU,EAAE,CAAC;CAU1C"}

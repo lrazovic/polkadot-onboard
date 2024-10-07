@@ -7,6 +7,7 @@
     "lib": ["dom", "dom.iterable", "ES2022"],
     "module": "ES2022",
     "moduleResolution": "node",
+    "declarationMap": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,
